@@ -1,0 +1,107 @@
+
+/*
+ * Styling for Twitter Widget.
+ * Grey Colorscheme.
+ */
+
+
+html,
+html .SandboxRoot,
+html .p-author .profile .p-name,
+html .custom-timeline-owner-profile .p-name,
+html .env-narrow .header .profile .p-name {
+	color: #016295;
+}
+
+body .timeline-header,
+body .timeline-footer {
+	background-color: #8ba0aa;
+}
+body .timeline-header {
+	border-radius: 3px 3px 0 0;
+}
+body .timeline-footer {
+	border-radius: 0 0 3px 3px;
+}
+html .timeline-header .summary,
+html .timeline-header .summary a:link,
+html .timeline-header .summary a:visited,
+html .p-author a.profile:hover {
+	color: #fff;
+}
+
+/* Follow Button */
+html .timeline-header a.follow-button:link,
+html .timeline-header a.follow-button:visited,
+html .timeline-header a.follow-button:hover,
+html .timeline-header a.follow-button:focus,
+html .timeline-header a.follow-button:active,
+html .thm-dark .timeline-header a.follow-button:link,
+html .thm-dark .timeline-header a.follow-button:visited,
+html .thm-dark .timeline-header a.follow-button:hover,
+html .thm-dark .timeline-header a.follow-button:focus,
+html .thm-dark .timeline-header a.follow-button:active {
+	color: #555;
+}
+html .follow-button:link,
+html .follow-button:visited {
+	background-color: #fff;
+	background-image: linear-gradient(#fff, #ddd);
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #555;
+	cursor: pointer;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	white-space: nowrap;
+}
+
+h2.byline {
+	display: none;
+	color: #fff;
+}
+body .timeline .timeline-header h2.byline a:link,
+body .timeline .timeline-header h2.byline a:hover,
+body .timeline .timeline-header h2.byline a:active,
+body .timeline .timeline-header h2.byline a:visited {
+	color: #FFFFEE;
+}
+
+body .timeline,
+html .timeline .stream {
+	background-color: #9fb9c5;
+	color: #fff;
+}
+
+body .timeline a:link,
+body .timeline a:visited {
+	color: #555;
+	text-decoration: none;
+}
+
+body .timeline a:active,
+body .timeline a:hover {
+	color: #555;
+	text-decoration: underline;
+}
+
+.timeline .p-author .profile .p-name,
+html .timeline .stream a:link,
+html .timeline .stream a:visited,
+html .timeline .stream a:hover,
+html .timeline .stream a:active {
+	color: #fff;
+}
+html,
+html .p-author .profile .p-name,
+html .cards-base p,
+html .cards-base p a,
+html .timeline-header .summary,
+html .timeline-header .summary a:link,
+html .timeline-header .summary a:visited,
+html .p-author a.profile:hover
+html .p-name, .p-author a.profile:focus .p-name {
+	color: #fff;
+}
+html .timeline .customisable-border {
+	border-style: dotted;
+}

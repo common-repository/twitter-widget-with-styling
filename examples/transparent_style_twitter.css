@@ -1,0 +1,58 @@
+
+/* 
+ * Stylesheet for Twitter Widget
+ * Transparent Colorscheme.
+ * Designed for dark backgrounds.
+ */
+
+
+html .timeline {
+	background-color: transparent;
+	border: none 0;
+}
+
+.timeline-header {
+	display: none;
+	background-color: transparent;
+}
+.timeline-footer {
+	display: none;
+	background-color: transparent;
+}
+
+html .timeline .stream {
+	background-color: transparent;
+	color: #fff;
+	overflow: hidden;
+}
+.timeline.var-narrow .tweet .header {
+	padding: 0 0 4px 0;
+}
+img.avatar {
+	display: none;
+}
+.timeline .p-author .profile .p-name,
+html .timeline .stream a:link,
+html .timeline .stream a:visited,
+html .timeline .stream a:hover,
+html .timeline .stream a:active {
+	color: #fff;
+}
+html .timeline .customisable-border {
+	border: none 0;
+}
+html .timeline h1.summary {
+	margin: 0;
+}
+html .timeline .var-narrow .tweet {
+	padding: 0;
+}
+#tweets {
+	margin-left: -10px;
+}
+.var-narrow .tweet,
+html .timeline  .stream ol li .var-narrow .tweet,
+.tweet .h-entry .customisable-border {
+    padding: 4px 4px 6px;
+}
+
